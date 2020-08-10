@@ -3,7 +3,12 @@ body{
 	font-size: 16px;
 	box-sizing: border-box;
 }
-
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none !important;
+}
 p{
 	font-family: 'Roboto';
 }
@@ -24,9 +29,9 @@ p{
 	font-family: 'Roboto';
 }
 
-.nav-item a:hover{
-color: #333 !important;
-}
+.nav-item a:hover,button a:hover{
+	color: #333 !important;
+	}
 
 .btn-outline-primary{
 	background-color: #fff;

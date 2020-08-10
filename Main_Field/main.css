@@ -2,7 +2,12 @@ body{
 	margin-top: 70px;
 	font-size: 16px;
 }
-
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none !important;
+}
 p{
 	font-family: 'Roboto';
 	font-size: 20px;
@@ -26,9 +31,12 @@ p{
 	color: #fff !important;
 }
 
-.nav-item a:hover{
-color: #333 !important;
-}
+
+
+.nav-item a:hover,button a:hover{
+	color: #333 !important;
+	}
+	
 
 	.btn-outline-primary{
 		background-color: #fff;
@@ -65,9 +73,6 @@ color: #333 !important;
 		height: 20%;
 	}
 
-			
-	}
-	
 	.wrapper {
 			background-color: #fff;
 			margin-bottom: 50px;

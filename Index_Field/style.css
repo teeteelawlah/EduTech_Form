@@ -13,7 +13,12 @@ p{
 	font-size: 16px;
 	background-color: #5C6CB0;
 }
-
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none !important;
+}
 .navbar-expand-md img{
 	width: 10%;
 }
@@ -22,9 +27,9 @@ p{
 	color: #fff !important;
 }
 
-.nav-item a:hover{
-color: #333 !important;
-}
+.nav-item a:hover,button a:hover{
+	color: #333 !important;
+	}
 
 	
 	#showcase .showcase-left img{
